@@ -39,6 +39,12 @@ The objective of this lab is to show my ability to design and deploy a lab-based
    - The first step I performed in this lab is to install all packages required to successfully deploy Nagios. The following packages were installed Apache web server, PHP development tool, make, unzip, wget and net-snmp.
 
   - Next, I created a nagios user "Habib" and a group "NagiosAdmin" and adding the user to the group. The purpose of creating the user and group is to ensure that only authorised users can run critical commands within Nagios
+
+  - Download and Extract Nagios core and extract it in tmp directory.
+
+  - Configure Nagios Core
+
+  - 
   
      
      <img src="images/vm1.png" alt="VM deployment" width="500">

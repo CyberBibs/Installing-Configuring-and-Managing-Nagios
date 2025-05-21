@@ -35,8 +35,11 @@ The objective of this lab is to show my ability to design and deploy a lab-based
     
 ## Configuration Steps
 
-1. **Deploying the Nagios Server on Azure:**
-   - Deploy a server with the name server in azure. This server OS is RHEL 9.5
+1. **Installing Required Packages:**
+   - The first step I performed in this lab is to install all packages required to successfully deploy Nagios. The following packages were installed Apache web server, PHP development tool, make, unzip, wget and net-snmp.
+
+  - Next, I created a nagios user "Habib" and a group "NagiosAdmin" and adding the user to the group. The purpose of creating the user and group is to ensure that only authorised users can run critical commands within Nagios
+  
      
      <img src="images/vm1.png" alt="VM deployment" width="500">
      
@@ -44,7 +47,7 @@ The objective of this lab is to show my ability to design and deploy a lab-based
 
     <img src="images/fw1.png" alt="Inbound firewall configuration" width="600">
 
-2. **Installation, configuration and deployment of OpenCTI via docker:**
+1. **Installation, configuration and deployment of OpenCTI via docker:**
    - Connected to my OpenCTI1 server using putty to perform all installations and configuration.
 
     <img src="images/putty1.png" alt="Connecting to my server" width="600">
